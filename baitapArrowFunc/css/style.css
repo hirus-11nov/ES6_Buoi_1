@@ -121,7 +121,8 @@ body {
   width: 100%;
 }
 
-.house-base-detail::before, .house-base-detail::after {
+.house-base-detail::before,
+.house-base-detail::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -160,7 +161,8 @@ body {
   background-color: #fff;
 }
 
-.house-door-window::before, .house-door-window::after {
+.house-door-window::before,
+.house-door-window::after {
   content: "";
   position: absolute;
 }
@@ -225,7 +227,8 @@ body {
   background-color: #fff;
 }
 
-.house-window::before, .house-window::after {
+.house-window::before,
+.house-window::after {
   content: "";
   position: absolute;
 }
@@ -292,7 +295,7 @@ body {
   left: 6.5rem;
 }
 
-.house-upper > .house-window {
+.house-upper>.house-window {
   position: absolute;
   z-index: 3;
   bottom: 1.25rem;
@@ -309,7 +312,8 @@ body {
   background-color: var(--primary-color);
 }
 
-.house-upper-detail::before, .house-upper-detail::after {
+.house-upper-detail::before,
+.house-upper-detail::after {
   content: "";
   position: absolute;
   left: 0;
@@ -341,7 +345,8 @@ body {
   background-color: var(--primary-color);
 }
 
-.house-upper-shadow::before, .house-upper-shadow::after {
+.house-upper-shadow::before,
+.house-upper-shadow::after {
   content: "";
   position: absolute;
   width: 3.25rem;
@@ -439,7 +444,8 @@ body {
   background-color: var(--secondary-color);
 }
 
-.house-roof-detail::before, .house-roof-detail::after {
+.house-roof-detail::before,
+.house-roof-detail::after {
   content: "";
   position: absolute;
   left: 0;
@@ -516,6 +522,10 @@ body {
   transition: 0.25s;
 }
 
+.color-button:hover::after {
+  opacity: 1;
+}
+
 .color-button.pallet {
   background-color: #b888f8;
 }
@@ -567,4 +577,5 @@ body {
   justify-content: center;
   margin-top: 0.5rem;
 }
+
 /*# sourceMappingURL=style.css.map */
